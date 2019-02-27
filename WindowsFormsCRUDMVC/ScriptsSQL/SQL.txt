@@ -1,0 +1,18 @@
+﻿
+create database primer_parcial;
+use primer_parcial;
+
+create table acciones(
+	id int primary key,
+	fecha varchar(50),
+	precioAccion float,
+	dineroInvertido float,
+	accionesOperadas int 
+);
+
+insert into acciones values
+(1, '01-sep/11', 67.75, 10000, 147), 
+(2, '04-oct/11', 62.75, 500, 7),
+(3, '03-nov/11', 67.63, 650, 9);
+
+select * from acciones;

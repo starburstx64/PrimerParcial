@@ -182,6 +182,7 @@
       <DependentUpon>Acciones.edmx</DependentUpon>
       <LastGenOutput>Acciones1.cs</LastGenOutput>
     </Content>
+    <Content Include="ScriptsSQL\SQL.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\Acciones.edmx">
